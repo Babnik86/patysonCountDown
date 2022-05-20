@@ -398,3 +398,13 @@ img.logo{
     50% { opacity:0; }
     100% { opacity:1; }
 }
+.footer-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-item-link {
+    padding-right: 10px;
+    color: #4b9ac5;
+}
