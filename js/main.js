@@ -37,7 +37,7 @@ jQuery(document).ready(function() {
 });
 
 // cowntdown function. Set the date below (December 1, 2016 00:00:00):
-var austDay = new Date("June 1, 2022 00:00:00");
+var austDay = new Date("May 26, 2022 00:00:00");
 
 $('#countdown').countdown({until: austDay, layout: '<div class="item"><p>{dn}</p> {dl}</div> <div class="item"><p>{hn}</p> {hl}</div> <div class="item"><p>{mn}</p> {ml}</div> <div class="item"><p>{sn}</p> {sl}</div>'});
 $('#year').text(austDay.getFullYear());
